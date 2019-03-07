@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: P
+  background-image:  url("bg2.jpg");
   font-family: Courier new;
 }
 
