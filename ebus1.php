@@ -19,7 +19,7 @@ body {
   margin-right: 200px;
 }
 text{
-  font-family: Courier new;
+  font-family: Courier new ;
   font-size: 20px;
 }
 </style>  
