@@ -38,6 +38,20 @@ input[type="button"]{
     margin-left: 2em;
     margin-bottom: 2em;
 }
+a:link, a:visited {
+  background-image: url("bg2.jpg");
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Courier new;
+  font-size: 20px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
 </style>
 
     </head>
@@ -60,10 +74,13 @@ echo "The total value is : ".$totalValue2.".";
 ?>
         <div>
         <br>
-        <a href="ebus.php" class="previous">&laquo; Back</a>
-        </div>
+ <a href="Consultancy.php" class="btn btn-xl btn-dark mr-4" style="href-align: center;">
+<font color="#FFFFFF">Back to Fox Consultations ltd</font>
+</a>      
 
-
+        <a href="ebus.php" class="btn btn-xl btn-dark mr-4" style="href-align: center;">
+<font color="#FFFFFF">Previous Page</font>
+</a>
 </body>
 </html
 
