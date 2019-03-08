@@ -92,7 +92,7 @@ a:hover, a:active {
                         </tr>
                          <tr>
                             <td>Password</td>
-                            <td><input type="password" value="" id="myInput"><br><br>
+                            <td><input type="password" max="4" value="" id="myInput"><br><br>
                             <input type="checkbox" onclick="myFunction()">Show Password
 
 <script>
